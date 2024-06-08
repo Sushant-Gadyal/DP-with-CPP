@@ -146,7 +146,7 @@ void solve()
 {
     int n;
     cin>>n;
-    dp[0] = 1;
+    dp[0] = 1; // this is because there is one way of choosing not taking any ele
     dp[1] = 1;
     dp[2] = 2;
     dp[3] = 4;
